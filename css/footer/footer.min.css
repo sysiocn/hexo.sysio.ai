@@ -54,6 +54,7 @@
 #footer_icons .icon_link:hover {
   /* background-color: var(--marcus-blue) !important; */
   background-color: #f2b94bdd;
+  box-shadow: 0 0 15px #f2b94bdd;
 }
 #footer_icons .icon_link i {
   font-size: 20px;
@@ -331,6 +332,7 @@
 }
 [data-theme="dark"] #footer_icons .icon_link:hover {
   background-color: #f2b94bdd;
+  box-shadow: 0 0 15px #f2b94bdd;
 }
 [data-theme="dark"] #footer_icons .icon_link i {
   color: #202020;
