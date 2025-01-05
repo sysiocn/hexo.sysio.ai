@@ -52,7 +52,8 @@
   border-radius: 50%;
 }
 #footer_icons .icon_link:hover {
-  background-color: var(--marcus-blue) !important;
+  /* background-color: var(--marcus-blue) !important; */
+  background-color: #f2b94bdd;
 }
 #footer_icons .icon_link i {
   font-size: 20px;
@@ -228,7 +229,8 @@
   }
 }
 #footer-bottom a:hover {
-  color: var(--marcus-blue);
+  /* color: var(--marcus-blue); */
+  color: #f2b94bdd;
 }
 #footer-bottom a:hover::before {
   color: var(--font-color);
@@ -327,12 +329,16 @@
 [data-theme="dark"] #footer_icons .icon_link {
   background-color: #ececec;
 }
+[data-theme="dark"] #footer_icons .icon_link:hover {
+  background-color: #f2b94bdd;
+}
 [data-theme="dark"] #footer_icons .icon_link i {
   color: #202020;
 }
 [data-theme="dark"] #footer_icons .icon_link:hover i {
   color: #fff;
 }
+
 [data-theme="dark"] #footer_icons img.footer_logo {
   filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.3)) !important;
 }
